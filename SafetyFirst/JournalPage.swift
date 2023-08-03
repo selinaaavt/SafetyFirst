@@ -50,7 +50,7 @@ struct JournalPage: View {
                     
                     
                     NavigationLink(destination: CALCAL()) {
-                        Image("Calender")
+                        Image("Calender ")
                             .resizable(capInsets: EdgeInsets(top: 0.0, leading: 0.0, bottom: 0.0, trailing: 0.0))
                             .frame(width: 75.0, height: 50.0)
                     }
